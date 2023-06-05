@@ -3,8 +3,6 @@ from django.contrib.auth.models import User
 from django.contrib.postgres.fields import ArrayField
 
 
-# Create your models here.
-
 class Prospects(models.Model):
     class categorychoices(models.TextChoices):
         CONVERTED = 'Converted'
