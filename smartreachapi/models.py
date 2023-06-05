@@ -5,6 +5,7 @@ from django.contrib.postgres.fields import ArrayField
 
 class Prospects(models.Model):
     class categorychoices(models.TextChoices):
+    
         CONVERTED = 'Converted'
         INTERESTED = 'Interested'
         NOT_INTERESTED = 'Not Interested'
